@@ -1,0 +1,124 @@
+What type of architecture does the HTTP request and response process occur in?
+
+
+What parts make up an HTTP request?
+
+
+What is the optional part of an HTTP request?
+
+
+What three parts make up an HTTP response?
+
+
+Which number class of status codes represent errors?
+
+
+What are the two most common request methods that a security professional will come across?
+
+
+Which type of HTTP request method is used for sending data?
+
+
+Which part of an HTTP request contains the data being sent to the server?
+
+
+In which part of an HTTP response would the browser receive the web code to generate and style a web page?
+
+What are the advantages of using curl over the browser?
+
+
+Which curl option is used to change the request method?
+
+
+Which curl option is used to set request headers?
+
+
+Which curl option is used to view the response header?
+
+
+Which request method might an attacker use to scope out usable HTTP requests that an HTTP server will accept?
+
+Which response header sends a cookie to the client?
+
+
+Which request header sets a cookie in the client?
+
+
+
+What was the request method?
+
+
+
+Was the request encrypted or unencrypted?
+
+
+Does the request have a user session associated to it?
+
+
+What kind of data is being sent from this request body?
+
+What was the response status code?
+
+
+Was the response encrypted or unencrypted?
+
+
+Does this response have a user session associated to it?
+
+
+What kind of content is likely to be in the [page content] response body?
+
+
+If your class covered security headers, what security request headers have been included?
+
+
+
+Monoliths and Microservices
+Answer the following questions about monoliths and microservices:
+
+
+What are the individual components of microservices called?
+
+
+What is a service that writes to a database and communicates to other services?
+
+
+What type of underlying technology allows for microservices to become scalable and have redundancy?
+
+
+
+Container Vulnerability Filtering
+Answer the following questions about vulnerability filtering Trivy scans with jq:
+
+
+Do microservices share the same kind of vulnerabilities as regular operating systems?
+
+
+Would an organization be more concerned with Low severity vulnerabilities as much as Critical?
+
+
+Would the bash tool jq be useful in finding certain kinds of vulnerabilities within a vulnerability report?
+
+
+
+Deploying and Testing a Container Set
+Answer the following questions about multi-container deployment:
+
+
+What is a tool that can be used to deploy multiple containers at once?
+
+
+What kind of file format was required for us to deploy a container set?
+
+
+
+Container Runtime Intrusion Detection Systems
+
+
+What is a tool used to actively detects intrusion behavior within containers?
+
+
+What high-value system file might an intruder view that would trigger a sensitive file opening alert?
+
+
+What kind of intruder action might trigger an alert from a container IDS that says shell configuration file has been modified?
