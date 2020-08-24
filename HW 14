@@ -1,39 +1,52 @@
 What type of architecture does the HTTP request and response process occur in?
+Basic architecture which includes websever,database, and webclient.
 
 
 What parts make up an HTTP request?
+Method,path,header, and version of the protocol
 
 
 What is the optional part of an HTTP request?
+The body is the optional part.
 
 
 What three parts make up an HTTP response?
-
+request line, the headers, and the body
 
 Which number class of status codes represent errors?
+404,403,500,503, and 504.
 
 
 What are the two most common request methods that a security professional will come across?
+DDoS attack and Cross Site Scripting 
 
 
 Which type of HTTP request method is used for sending data?
+GET
 
 
 Which part of an HTTP request contains the data being sent to the server?
+The body 
 
 
 In which part of an HTTP response would the browser receive the web code to generate and style a web page?
+The body 
 
 What are the advantages of using curl over the browser?
+Its useful for non-interactive scripts to access sites that require logins. Also With curl you can also pass HTTP headers, cookies and authentication information.
 
 
 Which curl option is used to change the request method?
+Preform a HTTP POST request.
 
 
 Which curl option is used to set request headers?
+Curl -H is used to set the header.
+
 
 
 Which curl option is used to view the response header?
+curl -i is used to view the response
 
 
 Which request method might an attacker use to scope out usable HTTP requests that an HTTP server will accept?
