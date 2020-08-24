@@ -122,6 +122,7 @@ What is a service that writes to a database and communicates to other services?
 
 
 What type of underlying technology allows for microservices to become scalable and have redundancy?
+It depends what application that run on the sever.
 
 
 
@@ -129,13 +130,20 @@ Container Vulnerability Filtering
 Answer the following questions about vulnerability filtering Trivy scans with jq:
 
 
+
 Do microservices share the same kind of vulnerabilities as regular operating systems?
+Yes they do.
+
 
 
 Would an organization be more concerned with Low severity vulnerabilities as much as Critical?
+They would be more concerned with the low severity.
+
 
 
 Would the bash tool jq be useful in finding certain kinds of vulnerabilities within a vulnerability report?
+Yes this bash tool is used for finding vulnerabilities. 
+
 
 
 
@@ -144,19 +152,26 @@ Answer the following questions about multi-container deployment:
 
 
 What is a tool that can be used to deploy multiple containers at once?
+Multi-container applications would work great.
 
 
 What kind of file format was required for us to deploy a container set?
+YAML is the file format.
 
 
 
 Container Runtime Intrusion Detection Systems
 
 
+
 What is a tool used to actively detects intrusion behavior within containers?
+network intrusion detection systems (NIDS)
 
 
 What high-value system file might an intruder view that would trigger a sensitive file opening alert?
+A .ssh file or a file with personnal information.
 
 
 What kind of intruder action might trigger an alert from a container IDS that says shell configuration file has been modified?
+The changing of a ssh key or adding a malicious script.
+
