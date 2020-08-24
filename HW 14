@@ -50,8 +50,13 @@ curl -i is used to view the response
 
 
 Which request method might an attacker use to scope out usable HTTP requests that an HTTP server will accept?
+THe attacker could use a GET request.
+
+
 
 Which response header sends a cookie to the client?
+
+
 
 
 Which request header sets a cookie in the client?
@@ -59,30 +64,39 @@ Which request header sets a cookie in the client?
 
 
 What was the request method?
-
+POST
 
 
 Was the request encrypted or unencrypted?
+unencrypted
 
 
 Does the request have a user session associated to it?
+No
+
 
 
 What kind of data is being sent from this request body?
+Login information
 
 What was the response status code?
+200
 
 
 Was the response encrypted or unencrypted?
+encryted
 
 
 Does this response have a user session associated to it?
-
+This seems to be cross site scripting
 
 What kind of content is likely to be in the [page content] response body?
+Encryyed data would be inside.
+
 
 
 If your class covered security headers, what security request headers have been included?
+
 
 
 
