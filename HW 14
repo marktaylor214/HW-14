@@ -96,6 +96,7 @@ Encryyed data would be inside.
 
 
 If your class covered security headers, what security request headers have been included?
+Strict-Transport-Security HTTP header
 
 
 
@@ -105,9 +106,19 @@ Answer the following questions about monoliths and microservices:
 
 
 What are the individual components of microservices called?
+Clients
+Identity Providers
+API Gateway
+Messaging Formats
+Databases
+Static Content
+ Management
+Service Discovery
 
 
 What is a service that writes to a database and communicates to other services?
+ An "Application Programming Interface" is used for communication. 
+
 
 
 What type of underlying technology allows for microservices to become scalable and have redundancy?
